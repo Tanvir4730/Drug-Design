@@ -1,0 +1,26 @@
+Drug Design Methodology
+1. Target Identification (Protein & Ligand/Structures)
+1.1. Literature Review (e.g., Google Scholar, PubMed)
+1.2. Protein Download (Protein Data Bank, UniProt)
+1.3. Compound Search & Download (e.g., PubChem, Ambinter, ChEMBL, IMPPAT, MPDB 2.0)
+2. Protein Preparation
+2.1. View and delete unnecessary elements (e.g., BIOVIA Discovery Studio Visualizer)
+2.2. Protein Active Site Identification (BIOVIA Discovery Studio Visualizer)
+2.3. Solve formatting issues for docking (Swiss PDB Viewer)
+3. Ligand Preparation
+3.1. Merge all ligands into one SDF file (Open Babel)
+4. Virtual Screening & Molecular Docking
+4.1. Single Docking (PyRx)
+4.2. Multiple Docking (PyRx)
+5. ADME Analysis
+5.1. ADME (Absorption, Distribution, Metabolism, Excretion) Analysis (SwissADME)
+6. Toxicological Properties
+6.1. Toxicity Prediction (Protox2, admetSAR)
+7. Molecular Dynamics Simulation
+7.1. Windows-Based (Yasara)
+7.2. Linux-Based (Gromacs)
+7.3. Web Server-Based (Simlab)
+8. MM/PBSA Analysis
+8.1. Free Binding Energy Calculation (Yasara)
+9. PCA Analysis
+9.1. Software-Based (e.g., Minitab 18)
